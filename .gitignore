@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+venv/
+env/
+backend/data/messages.json
+backend/index/messages.faiss
+backend/index/id_map.json
+frontend/node_modules/
+frontend/dist/
+.DS_Store
+backend/index/threads.faiss
+backend/index/thread_map.json
+backend/data/eval_results.json
+backend/data/evaluation_details.json

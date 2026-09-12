@@ -1,0 +1,282 @@
+[
+  {
+    "id": "q01",
+    "query": "When did we decide on the trip?",
+    "expected_message_id": "msg_trip_decide",
+    "category": "decision",
+    "hard": true
+  },
+  {
+    "id": "q02",
+    "query": "When was the project database settled?",
+    "expected_message_id": "msg_proj_decide",
+    "category": "decision",
+    "hard": true
+  },
+  {
+    "id": "q03",
+    "query": "When was the event location confirmed?",
+    "expected_message_id": "msg_event_decide",
+    "category": "decision",
+    "hard": true
+  },
+  {
+    "id": "q04",
+    "query": "What was the spending limit?",
+    "expected_message_id": "msg_budget_decide",
+    "category": "decision",
+    "hard": true
+  },
+  {
+    "id": "q05",
+    "query": "Where did everyone agree to meet?",
+    "expected_message_id": "msg_meet_decide",
+    "category": "decision",
+    "hard": true
+  },
+  {
+    "id": "q06",
+    "query": "How are we traveling there?",
+    "expected_message_id": "msg_travel_decide",
+    "category": "decision",
+    "hard": true
+  },
+  {
+    "id": "q07",
+    "query": "When is the final code deadline?",
+    "expected_message_id": "msg_deadline_decide",
+    "category": "decision",
+    "hard": true
+  },
+  {
+    "id": "q08",
+    "query": "Who is taking care of snacks?",
+    "expected_message_id": "msg_snacks_decide",
+    "category": "decision",
+    "hard": true
+  },
+  {
+    "id": "q09",
+    "query": "Where are we planning to go for vacation?",
+    "expected_message_id": "msg_trip_decide",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q10",
+    "query": "Which database engine are we using?",
+    "expected_message_id": "msg_proj_decide",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q11",
+    "query": "Where is the venue for the function?",
+    "expected_message_id": "msg_event_decide",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q12",
+    "query": "What is the maximum budget per person?",
+    "expected_message_id": "msg_budget_decide",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q13",
+    "query": "What time should we leave for the airport?",
+    "expected_message_id": "msg_airport_leave",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q14",
+    "query": "Did we book the hotel rooms yet?",
+    "expected_message_id": "msg_hotel_book",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q15",
+    "query": "What framework are we using for frontend?",
+    "expected_message_id": "msg_frontend_framework",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q16",
+    "query": "What is the team dinner schedule?",
+    "expected_message_id": "msg_dinner_schedule",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q17",
+    "query": "Who will present the slides?",
+    "expected_message_id": "msg_slides_present",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q18",
+    "query": "Where did we save the design files?",
+    "expected_message_id": "msg_design_files",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q19",
+    "query": "Is the backend API ready?",
+    "expected_message_id": "msg_backend_api",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q20",
+    "query": "What is the WiFi password at office?",
+    "expected_message_id": "msg_wifi_pass",
+    "category": "semantic",
+    "hard": false
+  },
+  {
+    "id": "q21",
+    "query": "What did Priya say about the budget?",
+    "expected_message_id": "msg_priya_budget",
+    "category": "person",
+    "hard": false
+  },
+  {
+    "id": "q22",
+    "query": "What did Rahul propose for the trip?",
+    "expected_message_id": "msg_rahul_trip",
+    "category": "person",
+    "hard": false
+  },
+  {
+    "id": "q23",
+    "query": "What did Neha suggest regarding design?",
+    "expected_message_id": "msg_neha_design",
+    "category": "person",
+    "hard": false
+  },
+  {
+    "id": "q24",
+    "query": "What did Aman mention about backend performance?",
+    "expected_message_id": "msg_aman_perf",
+    "category": "person",
+    "hard": false
+  },
+  {
+    "id": "q25",
+    "query": "What did Simran ask about the schedule?",
+    "expected_message_id": "msg_simran_sched",
+    "category": "person",
+    "hard": false
+  },
+  {
+    "id": "q26",
+    "query": "What did Karan say about testing?",
+    "expected_message_id": "msg_karan_test",
+    "category": "person",
+    "hard": false
+  },
+  {
+    "id": "q27",
+    "query": "What did Riya update on logistics?",
+    "expected_message_id": "msg_riya_logistics",
+    "category": "person",
+    "hard": false
+  },
+  {
+    "id": "q28",
+    "query": "What did Arjun suggest for database choice?",
+    "expected_message_id": "msg_arjun_db",
+    "category": "person",
+    "hard": false
+  },
+  {
+    "id": "q29",
+    "query": "What did Priya mention about food preferences?",
+    "expected_message_id": "msg_priya_food",
+    "category": "person",
+    "hard": false
+  },
+  {
+    "id": "q30",
+    "query": "What did Rahul comment on trip transport?",
+    "expected_message_id": "msg_rahul_transport",
+    "category": "person",
+    "hard": false
+  },
+  {
+    "id": "q31",
+    "query": "What did we discuss in March 2026?",
+    "expected_message_id": "msg_march_discuss",
+    "category": "time",
+    "hard": false
+  },
+  {
+    "id": "q32",
+    "query": "What happened last week?",
+    "expected_message_id": "msg_last_week",
+    "category": "time",
+    "hard": false
+  },
+  {
+    "id": "q33",
+    "query": "What did we talk about in June 2026?",
+    "expected_message_id": "msg_june_discuss",
+    "category": "time",
+    "hard": false
+  },
+  {
+    "id": "q34",
+    "query": "What was discussed in April 2026?",
+    "expected_message_id": "msg_april_discuss",
+    "category": "time",
+    "hard": false
+  },
+  {
+    "id": "q35",
+    "query": "What did we finalize in July 2026?",
+    "expected_message_id": "msg_july_discuss",
+    "category": "time",
+    "hard": false
+  },
+  {
+    "id": "q36",
+    "query": "What was planned in May 2026?",
+    "expected_message_id": "msg_may_discuss",
+    "category": "time",
+    "hard": false
+  },
+  {
+    "id": "q37",
+    "query": "What did we decide yesterday?",
+    "expected_message_id": "msg_yesterday_decide",
+    "category": "time",
+    "hard": false
+  },
+  {
+    "id": "q38",
+    "query": "What did we discuss in August 2026?",
+    "expected_message_id": "msg_august_discuss",
+    "category": "time",
+    "hard": false
+  },
+  {
+    "id": "q39",
+    "query": "What was mentioned on April 17?",
+    "expected_message_id": "msg_trip_decide",
+    "category": "time",
+    "hard": false
+  },
+  {
+    "id": "q40",
+    "query": "What was updated in recent messages?",
+    "expected_message_id": "msg_recent_update",
+    "category": "time",
+    "hard": false
+  }
+]
